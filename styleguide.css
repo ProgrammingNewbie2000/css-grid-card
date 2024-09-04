@@ -1,0 +1,43 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    align-items: center;
+    margin: 70px auto;
+    background-color: purple;
+    
+}
+
+
+.stats {
+    display: grid;
+    line-height: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1
+    
+    
+}
+
+.grid-container h2, p {
+    color: white;
+}
+
+.grid-container h2 {
+    font-size: 3em;
+    max-width: 450px;
+}
+
+.grid-container h3 {
+    color: white;
+    padding-top: 20px;
+}
+
+.grid-container p {
+    max-width: 550px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
